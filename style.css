@@ -1,0 +1,86 @@
+*{margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+    /* header related css style  */
+.header{height: 850px;
+    width: 1920px;
+background-color:#E554731A;
+margin-top: 0px;
+
+}
+.header-container{display: flex;
+    padding-top: 50px;
+}
+.section-container{width:1440px;
+    margin-left: 12.5%;
+
+}
+.header-colum{width: 50%;
+}
+.header-title{
+    color: #272727;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 147px;
+}
+.header-description{
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+color: #27272799;
+margin-top: 32px;
+
+
+}
+.header-colum img{width: 635px;
+    height: 800px;
+margin-left: 97px;}
+.shop-now{border-style: none;
+    border-radius: 8px;
+    background-color: #E55473;
+    padding: 20px 43px;
+    /* align-items: flex-start; */
+    /* gap: 10px;     */
+margin-top:32px;
+transition: 0.3s;
+align-items: right;
+
+}
+.shop-now:hover{background-color: black;
+
+cursor: pointer;
+scale: 1.1;
+color:white;}
+.shop-now:active{background-color: #E55473;
+color:black;
+}
+
+/* featured flower css */
+.featured-flower{margin-top:178px ;}
+.featured-flower-title{text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800; color:#272727;
+    }
+.featured-flower-description{
+    text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+color: #27272799;}
+.flower-container{display: flex;
+flex-direction: row;
+margin-top: 48px;}
+.flower-details:last-child{margin-right: 0px;}
+.flower-details{margin-right: 24px;}
+.flower-tree{text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;}
