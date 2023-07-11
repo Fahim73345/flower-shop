@@ -68,6 +68,8 @@
     margin-top: 32px;
     transition: 0.3s;
     align-items: right;
+    font-size: 15px;
+    color: white;
 
 }
 
@@ -332,6 +334,8 @@
 
 .subscribe {
     margin-left: 16px;
+    font-size: 15px;
+    color: white;
 }
 
 .subscribe:hover {
@@ -400,6 +404,8 @@
 
 .visit {
     margin-top: 20px;
+    font-size: 15px;
+    color: white;
 }
 
 .visit:hover {
