@@ -5,8 +5,10 @@
 
 
 /* header related css style  */
-.main-width{
-    width: 1920px;}
+.main-width {
+    width: 1920px;
+}
+
 .header {
     height: 850px;
     width: 1920px;
@@ -335,6 +337,84 @@
 .subscribe:hover {
     scale: 1;
 }
+
+
+
+/* extra one section for bonus mark */
+
+.garden {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.gardern-container {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+.gardern-details {
+    width: 345px;
+    height: 400px;
+    margin-right: 24px;
+    text-align: center;
+
+}
+
+.gardern-details:last-child {
+    margin-right: 0px;
+}
+
+.image-container {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    border-bottom: 5px solid #272727;
+}
+
+.image-container img {
+    width: auto;
+    height: 100%;
+
+    transition: 0.3s;
+}
+
+.image-container img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.image-container img .garden-description {
+    text-align: center;
+}
+
+.garden-title {
+    margin-top: 24px;
+    font-size: 25px;
+    color: #272727;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.visit {
+    margin-top: 20px;
+}
+
+.visit:hover {
+    scale: 1;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
