@@ -5,6 +5,8 @@
 
 
 /* header related css style  */
+.main-width{
+    width: 1920px;}
 .header {
     height: 850px;
     width: 1920px;
